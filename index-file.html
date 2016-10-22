@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<title>ICPAK APP</title>
+		<!-- Path to Framework7 Library CSS-->
+		<link rel="stylesheet" href="dist/css/framework7.ios.min.css">
+		<link rel="stylesheet" href="css/fontawesome/css/font-awesome.css"> <!-- style CSS -->
+		<!-- Path to your custom app styles-->
+		<link rel="stylesheet" href="css/my-app.css">
+		<script type="text/javascript" src="js/connection.js"></script>
+		<!-- Path to Framework7 Library JS-->
+		<script type="text/javascript" src="dist/js/framework7.min.js"></script>
+		<script type="text/javascript" src="js/my-app.js"></script>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+		 <script>
+		  $( function() {
+		    $( "#tabs" ).tabs();
+		  } );
+		  </script>
+	</head>
+	
+	<body class="theme-red">
+		<!-- Status bar overlay for fullscreen mode-->
+		<div class="statusbar-overlay"></div>
+		<!-- Panels overlay-->
+		<div class="panel-overlay"></div>
+		<!-- Left panel with reveal effect-->
+		<div class="panel panel-left panel-reveal">
+			<div class="content-block">
+				<div class="logo-box">
+					<h3><img src="images/logo.jpg" alt="" /></h3>
+					<p style="text-align:center;"> ICPAK LIVE</p>
+				</div>
+			</div>
+
+			<div class="list-block">
+				<ul class="left-menu">
+
+					<li>
+						<a href="index.html" class="item-link item-content">
+							<div class="item-media"><i class="fa fa-calendar-o"></i></div>
+							<div class="item-inner">
+								<div class="item-title">EVENTS</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="check.html" class="item-link item-content">
+							<div class="item-media"><i class="fa fa-file"></i></div>
+							<div class="item-inner">
+								<div class="item-title">ICPAK RESOURCES</div>
+
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="recordings.html" class="item-link item-content">
+							<div class="item-media"><i class="fa fa-video-camera"></i></div>
+							<div class="item-inner">
+								<div class="item-title">ICPAK TV</div>
+
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="chat.html" class="item-link item-content">
+							<div class="item-media"><i class="fa fa-comment-o"></i></div>
+							<div class="item-inner">
+								<div class="item-title">MySay</div>
+
+							</div>
+						</a>
+					</li>
+				</ul>
+
+			</div>
+			<div class="content-block-title">PROFILE</div>
+			<div class="list-block">
+				<ul class="left-menu">
+					<li>
+						<a href="#" class="item-link item-content">
+							<div class="item-media"><i class="fa fa-cogs"></i></div>
+							<div class="item-inner">
+								<div class="item-title">MY ACCOUNT</div>
+
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Right panel with cover effect-->
+		<div class="panel panel-right panel-cover">
+			<div class="content-block">
+				<p style="text-align:center;"> MEMBER OFFERS</p>
+				<div class="row" id="icpak_offers">
+					
+				</div>
+				
+			</div>
+		</div>
+		<!-- Views-->
+		<div class="views">
+			<!-- Your main view, should have "view-main" class-->
+			<div class="view view-main">
+				<!-- Top Navbar-->
+				<div class="navbar">
+                    <div class="navbar-inner">
+                        <!-- Left part doesn't related to other pages, let's fade it out -->
+                        <div class="left">
+                        	<a href="#" data-panel="left" class="link icon-only open-panel"> <i class="fa fa-bars"></i></a>
+                        </div>
+                        <div class="center sliding">ICPAK LIVE</div>
+                        <div class="right">
+                        	<a href="#" data-panel="right" class="link icon-only open-panel"> <i class="fa fa-shopping-basket"></i></a>
+                        </div>
+                    </div>
+                </div>
+				<div class="pages ">
+
+					<!-- Index Page-->
+					<div data-page="index" class="page navbar-fixed" id="black-index">
+                    	
+						<!-- Scrollable page content-->
+						<div class="page-content">
+							<div class="logo-box-index">                  
+								<img src="images/logo.jpg" alt="" id="index-logo" /> 
+							</div>
+							<div class="font-outline">
+								<div class="headline">
+									OUR CREDO
+								</div>
+								<div class="credo"> Uphold Public Interest</div>
+
+								<div class="headline">
+									OUR VALUES
+								</div>
+								<div class="credo"> Credibility, Professionalism, Accountability</div>
+							</div>
+							<div class="bottom-border"></div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+		
+		<!-- Discussion Popup -->
+		<div class="popup popup-add-discussion">
+			<div class="content-block">
+				<h3>New Discussion</h3>
+				<p><a href="#" class="close-popup"><i class="fa fa-times"></i> Close</a></p>
+				<form id="add_discussion" method="post" action="#">
+					<input type="hidden" id="chat_member_id" name="chat_member_id" />
+					<input type="hidden" id="chat_member_name" name="chat_member_name" />
+					<div class="list-block">
+						<ul>
+							<li class="item-content">
+								<div class="item-inner">
+									<div class="item-title label">Title</div>
+									<div class="item-input">
+										<input type="text" name="discussion_title" id="discussion_title" placeholder="Discussion Title">
+									</div>
+								</div>
+							</li>
+							<li class="item-content">
+								<div class="item-inner">
+									<div class="item-title label">Content</div>
+									<div class="item-input">
+										<textarea name="discussion_content" id="discussion_content" placeholder="Content"></textarea>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="list-block">
+						<ul>
+							<li><input type="submit" class="button active" value="Add Discussion"/></li>
+						</ul>
+						<div class="list-block-label">
+							<p><a href="#" class="close-login-screen"><i class="fa fa-times"></i> Close</a></p>
+						</div>
+					</div>
+				</form>
+			</div>
+			
+		</div>
+		
+		<!-- Path to your app js-->
+		<script type="text/javascript" src="cordova.js"></script>
+		
+		 <script src="https://www.youtube.com/iframe_api"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/navigation.js"></script>
+		<script type="text/javascript" src="js/bookings.js"></script>
+		<script type="text/javascript" src="js/offers.js"></script>
+		<script type="text/javascript" src="js/event.js"></script>
+		<script type="text/javascript" src="js/resources.js"></script>
+		<script type="text/javascript" src="js/streaming.js"></script>
+		<script type="text/javascript" src="js/messages.js"></script>
+	</body>
+</html>

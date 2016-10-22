@@ -1,0 +1,119 @@
+<div class="navbar">
+    <div class="navbar-inner">
+    	<div class="left">
+            <a href="#" class="link icon-only open-panel"> <i class="fa fa-bars"></i></a>
+        </div>
+        <div class="center sliding">PUBLICATIONS</div>
+         <div class="right">
+        <a href="#" data-panel="right" class="link icon-only open-panel"> <i class="fa fa-shopping-basket"></i></a>
+      </div>
+
+    </div>
+
+   
+</div>
+<div class="pages ">
+	
+	<div id="resources-page" data-page="icpak-resources" class="page navbar-fixed" >
+		
+		<div class="page-content"  >
+			<div class="toolbar tabbar tabbar-labels" id="tabs">
+			    <div class="toolbar-inner" id="top-bar">
+			        <a href="#tab1" class="tab-link active">
+			            <!-- <i class="fa fa-video-camera"></i> -->
+			            <span class="tabbar-label"> JOURNALS
+			            	<i class="fa fa-book"></i>
+			            </span>
+			        </a>
+			        <a href="#tab2" class="tab-link">
+			             <span class="tabbar-label"> DOWNLOADS
+			            	<i class="fa fa-download"></i>
+			            </span>
+			        </a>
+			    </div>
+			</div>
+			<div class="tabs-swipeable-wrap">
+		      <!-- Tabs, tabs wrapper -->
+		      <div class="tabs">
+		        <!-- Tab 1, active by default -->
+		        <div id="tab1" class="page-content tab active">
+		        	<!-- Scrollable page content-->
+						<form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init">
+					    <div class="searchbar-input">
+					      <input type="search" placeholder="Search"><a href="#" class="searchbar-clear"></a>
+					    </div><a href="#" class="searchbar-cancel">Cancel</a>
+					  </form>
+					 
+					  <!-- Search Bar overlay -->
+					  <div class="searchbar-overlay"></div>
+				  	<!-- This block will be displayed if nothing found -->
+				    <div class="content-block searchbar-not-found">
+				      <div class="content-block-inner">Nothing found</div>
+				    </div>	 
+				    <!-- This block will be displayed if anything found, and this list block is used a searbar target -->
+				    <div class="list-block list-block-search searchbar-found media-list">
+					  <ul class="event-items" id="icpak_publications">
+					     
+					  </ul>
+					</div>
+		        </div>
+		        <!-- Tab 2 -->
+		        <div id="tab2" class="page-content tab">
+		        	<!-- Scrollable page content-->
+					<form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init">
+				    <div class="searchbar-input">
+				      <input type="search" placeholder="Search"><a href="#" class="searchbar-clear"></a>
+				    </div><a href="#" class="searchbar-cancel">Cancel</a>
+				  </form>
+				 
+				  <!-- Search Bar overlay -->
+				  <div class="searchbar-overlay"></div>
+		          	<div class="content-block searchbar-not-found">
+				      <div class="content-block-inner">Nothing found</div>
+				    </div>	 
+				    <!-- This block will be displayed if anything found, and this list block is used a searbar target -->
+				    <div class="list-block list-block-search searchbar-found media-list">
+					  <ul class="resources-items" id="icpak_resources_two">
+					   
+					  </ul>
+					</div>
+		        </div>
+		        <!-- Tab 3 -->
+		      </div>
+		    </div>
+		</div>
+
+		<div class="toolbar tabbar tabbar-labels" id="bottom">
+            <div class="toolbar-inner">
+                <a class="button tool-button" href="events.html" id="events-button" onclick="get_event_items();">
+                    <i class="fa fa-calendar">
+                      <!-- <span class="badge bg-red">0</span> -->
+                    </i>
+                    <span class="tabbar-label">EVENTS</span>
+                </a>
+                <a href="resources.html" class="button active tool-button" id="resources-button">
+                    <i class="fa fa-download">
+                        <!-- <span class="badge bg-red" > <span id="num_publication">0</span></span> -->
+                    </i>
+                    <span class="tabbar-label">PUBLICATIONS</span>
+                </a>
+                <a href="recordings.html" class="button tool-button" id="live-button">
+                    <i class="fa fa-video-camera">
+                        <!-- <span class="badge bg-red"><span id="num_videos">0</span></span> -->
+                    </i>
+                    <span class="tabbar-label">ICPAK TV</span>
+                </a>
+                <a href="chat.html" class="button tool-button" id="chat-button">
+                    <i class="fa fa-comment-o">
+                      <!-- <span class="badge bg-red"><span id="num_chats">0</span></span> -->
+                    </i>
+                    <span class="tabbar-label">MySay</span>
+                </a>
+                <a href="profile.html" class="button tool-button" id="profile-button">
+                    <i class="fa fa-user-md"></i>
+                    <span class="tabbar-label">PROFILE</span>
+                </a>
+            </div>
+        </div>
+	</div>
+</div>

@@ -1,0 +1,50 @@
+<div class="navbar">
+	    <div class="navbar-inner">
+	        <!-- Now, Left and Center parts reflect page title and page links, let's slide them -->
+	       <!--  <div class="left">
+	            <a href="chat.html" class="link"> 
+	            	<i class="fa fa-arrow-left"></i>
+	            	<div class="item-media">
+			        	<div class="image-icon ">
+			        		<img src="user.png">
+			        	</div>
+			         </div>
+	            </a>
+	        </div> -->
+	        <div class="center sliding">CHAT</div>
+             <div class="right">
+                <a href="#" data-panel="right" class="link icon-only open-panel"> <i class="fa fa-shopping-basket"></i></a>
+              </div>
+	    </div>
+	</div>
+<div class="pages">
+	
+  <!-- Page, data-page contains page name-->
+   <!-- Index Page-->
+  <div data-page="events-single" class="page navbar-fixed" id="events-single-page">
+  	
+    <!-- messagebar -->
+    <div class="toolbar messagebar">
+        <div class="toolbar-inner">
+        	<form method="POST" action="mobile/messages/message_profile" id="send-message">
+                <input type="hidden" id="receiver_id" name="receiver_id" />
+            	<div class="row">
+                    <div class="col-80">
+                        <textarea id="instant_message2" name="client_message_details" placeholder="Message" class=""></textarea>
+                    </div>
+                    <div class="col-20">
+                        <button class="button active" type="submit">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="page-content messages-content">
+        <div class="messages" id="chat-history">
+          
+        </div>
+    </div>
+  </div>
+
+</div>
+

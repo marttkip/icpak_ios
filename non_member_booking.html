@@ -1,0 +1,131 @@
+<div class="navbar">
+    <div class="navbar-inner">
+        <!-- Left part doesn't related to other pages, let's fade it out -->
+        <div class="left">
+        	<a href="#" data-panel="left" class="link icon-only open-panel"> <i class="fa fa-bars"></i></a>
+        </div>
+        <div class="center sliding">ICPAK LIVE</div>
+        <div class="right">
+        	<a href="#" data-panel="right" class="link icon-only open-panel"> <i class="fa fa-shopping-basket"></i></a>
+        </div>
+    </div>
+</div>
+<div class="pages ">
+
+	<!-- Index Page-->
+	<div data-page="non_member_booking" class="page navbar-fixed" id="non_member">
+    	
+		<!-- Scrollable page content-->
+		<div class="page-content">
+			<div class="content-block">
+			 <form class="cmxform" id="nonmemberbooking" method="post" action="">
+		       <h3 class="page_title">COMPANY DETAILS</h3>
+		       	<input type="hidden" id="bookingRefId" name="bookingRefId" value="">
+		       	<input type="hidden" id="accomodationRefId" name="accomodationRefId" />
+		       	<input type="hidden" id="hotel" name="hotel" />
+		       	<input type="hidden" id="post_id" name="post_id" />
+		       	<input type="hidden" id="fee" name="fee" />
+
+		       	 <div class="list-block">
+		       	 <ul>
+		       	 	<li>
+		       	 		<div class="item-inner">
+                          <div class="item-title label">Company</div>
+                          <div class="item-input">
+                            <input type="text" name="company" id="company" placeholder="Email">
+                          </div>
+                        </div>
+		       	 	</li>
+		       	 	<li>
+		       	 		<div class="item-inner">
+                          <div class="item-title label">Office Line:</div>
+                          <div class="item-input">
+                            <input type="text" name="office_line" id="office_line" placeholder="Email">
+                          </div>
+                        </div>
+		       	 	</li>
+		       	 	<li>
+		       	 		<div class="item-inner">
+                          <div class="item-title label">Postal Address:</div>
+                          <div class="item-input">
+                            <input type="text" name="postal_address" id="postal_address" placeholder="Email">
+                          </div>
+                        </div>
+		       	 	</li>
+		       	 	<li>
+		       	 		<div class="item-inner">
+                          <div class="item-title label">Postal Address:</div>
+                          <div class="item-input">
+                            <input type="text" name="postal_address" id="postal_address" placeholder="Postal Address">
+                          </div>
+                        </div>
+		       	 	</li>
+		       	 	<li>
+		       	 		<div class="item-inner">
+                          <div class="item-title label">Postal Code:</div>
+                          <div class="item-input">
+                            <input type="text" name="postal_code" id="postal_code" value="" class="form_input required" required />
+                          </div>
+                        </div>
+		       	 	</li>
+		       	 	<li>
+		       	 		<div class="item-inner">
+                          <div class="item-title label">Country:</div>
+                          <div class="item-input">
+                            <input type="text" name="name" id="name" placeholder="Email">
+                          </div>
+                        </div>
+		       	 	</li>
+		       	 	<li>
+		       	 		<div class="item-inner">
+                          <div class="item-title label">Town/ City:</div>
+                          <div class="item-input">
+                            <input type="text" name="town" id="town" placeholder="Email">
+                          </div>
+                        </div>
+		       	 	</li>
+		       	 	<li>
+		       	 		<div class="item-inner">
+                          <div class="item-title label">Contact Person:</div>
+                          <div class="item-input">
+                            <input type="text" name="contact_person" id="contact_person" placeholder="Email">
+                          </div>
+                        </div>
+		       	 	</li>
+		       	 	<li>
+		       	 		<div class="item-inner">
+                          <div class="item-title label">Contact Person:</div>
+                          <div class="item-input">
+                            <input type="text" name="contact_person_email" id="contact_person_email" placeholder="Email">
+                          </div>
+                        </div>
+		       	 	</li>
+		       	 
+		       	 	
+		       	 </ul>
+		       	 <h3 class="page_title align-center">DELEGATE INFORMATION</h3>
+		       	 <ul>
+		       	 	<li>
+		       	 		<div class="item-inner">
+                          <div class="item-title label">Full Name:</div>
+                          <div class="item-input">
+                            <input type="text" name="full_name" id="full_name" value="" class="form_input required" required/>
+                          </div>
+                        </div>
+		       	 	</li>
+		       	 </ul>
+		       	  <h3 class="page_title">ACCOMODATION INFORMATION</h3>
+		       		<p id="accomodation-detail"></p>
+	            	
+
+	              <input type="submit" class="form_submit" name="submit" class="form_submit" id="submit" value="BOOK EVENT">
+		       	 </div>
+		      </div>
+		    </form>
+		 </div>
+
+		</div>
+
+	</div>
+
+</div>

@@ -1,0 +1,34 @@
+<div class="navbar">
+    <div class="navbar-inner">
+        <!-- <div class="left sliding">
+            <a href="chat.html" class="link"> <i class="fa fa-arrow-left"></i></a>
+        </div> -->
+        <div class="left">
+            <a href="#" data-panel="left" class="link icon-only open-panel"> <i class="fa fa-bars"></i></a>
+        </div>
+        <!-- We have home navbar without left link-->
+        <div class="center"><h3 class="choto" id="forum-title">ICPAK</h3></div>
+        <div class="right">
+            <!-- Right link contains only icon - additional "icon-only" class-->
+            <a href="#" class="link icon-only post-notification" > 
+                <i class="fa fa-plus"></i>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="pages">
+	<div data-page="blog-single" class="page dashboard navbar-fixed" id="single_discussion">
+		
+        <div class="toolbar messagebar">
+            <div class="toolbar-inner">
+            	<textarea placeholder="Message" id="post_comment"></textarea><a class="link add-comment" href="#">Send</a>
+                <input type="hidden" id="forum_post_id" />
+            </div>
+        </div>
+    	
+        <div class="page-content messages-content">
+
+			<div class="messages messages-auto-layout" id="blog_details"></div>
+        </div>
+	</div>
+</div>
