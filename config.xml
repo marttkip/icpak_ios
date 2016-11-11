@@ -4,7 +4,8 @@
     <widget xmlns     = "http://www.w3.org/ns/widgets"
             xmlns:gap = "http://phonegap.com/ns/1.0"
             id		  = "com.icpak.icpaklive"
-            version   = "2.0.3">
+            version   = "2.0.3"
+            ios-CFBundleVersion="3.3.3">
     <!-- iOS -->
     <widget CFBundleVersion="2.0.3">
     </widget>
