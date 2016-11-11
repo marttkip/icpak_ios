@@ -5,6 +5,17 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id		  = "com.icpak.icpaklive"
         version   = "2.0.3">
+<widget id="com.icpak.icpaklive" version="2.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+</widget>
+
+<!-- Android -->
+<widget versionCode="2.0.3">
+</widget>
+
+<!-- iOS -->
+<widget CFBundleVersion="2.0.3">
+</widget>
+
 
     <name>ICPAK</name>
 
