@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FADB908F1DD6C828001EA10B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FADB908E1DD6C828001EA10B /* main.m */; };
+		FADB90921DD6C828001EA10B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FADB90911DD6C828001EA10B /* AppDelegate.m */; };
+		FADB90951DD6C828001EA10B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADB90941DD6C828001EA10B /* ViewController.m */; };
+		FADB90981DD6C828001EA10B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADB90961DD6C828001EA10B /* Main.storyboard */; };
+		FADB909A1DD6C828001EA10B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADB90991DD6C828001EA10B /* Assets.xcassets */; };
+		FADB909D1DD6C828001EA10B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADB909B1DD6C828001EA10B /* LaunchScreen.storyboard */; };
+		FADB90A81DD6C828001EA10B /* ICPAKLIVETests.m in Sources */ = {isa = PBXBuildFile; fileRef = FADB90A71DD6C828001EA10B /* ICPAKLIVETests.m */; };
+		FADB90B31DD6C828001EA10B /* ICPAKLIVEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FADB90B21DD6C828001EA10B /* ICPAKLIVEUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FADB90A41DD6C828001EA10B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADB90821DD6C828001EA10B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADB90891DD6C828001EA10B;
+			remoteInfo = ICPAKLIVE;
+		};
+		FADB90AF1DD6C828001EA10B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADB90821DD6C828001EA10B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADB90891DD6C828001EA10B;
+			remoteInfo = ICPAKLIVE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FADB908A1DD6C828001EA10B /* ICPAKLIVE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICPAKLIVE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADB908E1DD6C828001EA10B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FADB90901DD6C828001EA10B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FADB90911DD6C828001EA10B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FADB90931DD6C828001EA10B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FADB90941DD6C828001EA10B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FADB90971DD6C828001EA10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADB90991DD6C828001EA10B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADB909C1DD6C828001EA10B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADB909E1DD6C828001EA10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADB90A31DD6C828001EA10B /* ICPAKLIVETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICPAKLIVETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADB90A71DD6C828001EA10B /* ICPAKLIVETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICPAKLIVETests.m; sourceTree = "<group>"; };
+		FADB90A91DD6C828001EA10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADB90AE1DD6C828001EA10B /* ICPAKLIVEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICPAKLIVEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADB90B21DD6C828001EA10B /* ICPAKLIVEUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICPAKLIVEUITests.m; sourceTree = "<group>"; };
+		FADB90B41DD6C828001EA10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADB90871DD6C828001EA10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADB90A01DD6C828001EA10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADB90AB1DD6C828001EA10B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FADB90811DD6C828001EA10B = {
+			isa = PBXGroup;
+			children = (
+				FADB908C1DD6C828001EA10B /* ICPAKLIVE */,
+				FADB90A61DD6C828001EA10B /* ICPAKLIVETests */,
+				FADB90B11DD6C828001EA10B /* ICPAKLIVEUITests */,
+				FADB908B1DD6C828001EA10B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADB908B1DD6C828001EA10B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADB908A1DD6C828001EA10B /* ICPAKLIVE.app */,
+				FADB90A31DD6C828001EA10B /* ICPAKLIVETests.xctest */,
+				FADB90AE1DD6C828001EA10B /* ICPAKLIVEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADB908C1DD6C828001EA10B /* ICPAKLIVE */ = {
+			isa = PBXGroup;
+			children = (
+				FADB90901DD6C828001EA10B /* AppDelegate.h */,
+				FADB90911DD6C828001EA10B /* AppDelegate.m */,
+				FADB90931DD6C828001EA10B /* ViewController.h */,
+				FADB90941DD6C828001EA10B /* ViewController.m */,
+				FADB90961DD6C828001EA10B /* Main.storyboard */,
+				FADB90991DD6C828001EA10B /* Assets.xcassets */,
+				FADB909B1DD6C828001EA10B /* LaunchScreen.storyboard */,
+				FADB909E1DD6C828001EA10B /* Info.plist */,
+				FADB908D1DD6C828001EA10B /* Supporting Files */,
+			);
+			path = ICPAKLIVE;
+			sourceTree = "<group>";
+		};
+		FADB908D1DD6C828001EA10B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FADB908E1DD6C828001EA10B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FADB90A61DD6C828001EA10B /* ICPAKLIVETests */ = {
+			isa = PBXGroup;
+			children = (
+				FADB90A71DD6C828001EA10B /* ICPAKLIVETests.m */,
+				FADB90A91DD6C828001EA10B /* Info.plist */,
+			);
+			path = ICPAKLIVETests;
+			sourceTree = "<group>";
+		};
+		FADB90B11DD6C828001EA10B /* ICPAKLIVEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FADB90B21DD6C828001EA10B /* ICPAKLIVEUITests.m */,
+				FADB90B41DD6C828001EA10B /* Info.plist */,
+			);
+			path = ICPAKLIVEUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADB90891DD6C828001EA10B /* ICPAKLIVE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADB90B71DD6C828001EA10B /* Build configuration list for PBXNativeTarget "ICPAKLIVE" */;
+			buildPhases = (
+				FADB90861DD6C828001EA10B /* Sources */,
+				FADB90871DD6C828001EA10B /* Frameworks */,
+				FADB90881DD6C828001EA10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICPAKLIVE;
+			productName = ICPAKLIVE;
+			productReference = FADB908A1DD6C828001EA10B /* ICPAKLIVE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FADB90A21DD6C828001EA10B /* ICPAKLIVETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADB90BA1DD6C828001EA10B /* Build configuration list for PBXNativeTarget "ICPAKLIVETests" */;
+			buildPhases = (
+				FADB909F1DD6C828001EA10B /* Sources */,
+				FADB90A01DD6C828001EA10B /* Frameworks */,
+				FADB90A11DD6C828001EA10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADB90A51DD6C828001EA10B /* PBXTargetDependency */,
+			);
+			name = ICPAKLIVETests;
+			productName = ICPAKLIVETests;
+			productReference = FADB90A31DD6C828001EA10B /* ICPAKLIVETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FADB90AD1DD6C828001EA10B /* ICPAKLIVEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADB90BD1DD6C828001EA10B /* Build configuration list for PBXNativeTarget "ICPAKLIVEUITests" */;
+			buildPhases = (
+				FADB90AA1DD6C828001EA10B /* Sources */,
+				FADB90AB1DD6C828001EA10B /* Frameworks */,
+				FADB90AC1DD6C828001EA10B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADB90B01DD6C828001EA10B /* PBXTargetDependency */,
+			);
+			name = ICPAKLIVEUITests;
+			productName = ICPAKLIVEUITests;
+			productReference = FADB90AE1DD6C828001EA10B /* ICPAKLIVEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADB90821DD6C828001EA10B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MacBook;
+				TargetAttributes = {
+					FADB90891DD6C828001EA10B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 88EQPV857Y;
+					};
+					FADB90A21DD6C828001EA10B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FADB90891DD6C828001EA10B;
+					};
+					FADB90AD1DD6C828001EA10B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FADB90891DD6C828001EA10B;
+					};
+				};
+			};
+			buildConfigurationList = FADB90851DD6C828001EA10B /* Build configuration list for PBXProject "ICPAKLIVE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADB90811DD6C828001EA10B;
+			productRefGroup = FADB908B1DD6C828001EA10B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADB90891DD6C828001EA10B /* ICPAKLIVE */,
+				FADB90A21DD6C828001EA10B /* ICPAKLIVETests */,
+				FADB90AD1DD6C828001EA10B /* ICPAKLIVEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADB90881DD6C828001EA10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADB909D1DD6C828001EA10B /* LaunchScreen.storyboard in Resources */,
+				FADB909A1DD6C828001EA10B /* Assets.xcassets in Resources */,
+				FADB90981DD6C828001EA10B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADB90A11DD6C828001EA10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADB90AC1DD6C828001EA10B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADB90861DD6C828001EA10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADB90951DD6C828001EA10B /* ViewController.m in Sources */,
+				FADB90921DD6C828001EA10B /* AppDelegate.m in Sources */,
+				FADB908F1DD6C828001EA10B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADB909F1DD6C828001EA10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADB90A81DD6C828001EA10B /* ICPAKLIVETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADB90AA1DD6C828001EA10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADB90B31DD6C828001EA10B /* ICPAKLIVEUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FADB90A51DD6C828001EA10B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADB90891DD6C828001EA10B /* ICPAKLIVE */;
+			targetProxy = FADB90A41DD6C828001EA10B /* PBXContainerItemProxy */;
+		};
+		FADB90B01DD6C828001EA10B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADB90891DD6C828001EA10B /* ICPAKLIVE */;
+			targetProxy = FADB90AF1DD6C828001EA10B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FADB90961DD6C828001EA10B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADB90971DD6C828001EA10B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADB909B1DD6C828001EA10B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADB909C1DD6C828001EA10B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADB90B51DD6C828001EA10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FADB90B61DD6C828001EA10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADB90B81DD6C828001EA10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ICPAKLIVE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICPAK.ICPAKLIVE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FADB90B91DD6C828001EA10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ICPAKLIVE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICPAK.ICPAKLIVE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		FADB90BB1DD6C828001EA10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ICPAKLIVETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICPAK.ICPAKLIVETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICPAKLIVE.app/ICPAKLIVE";
+			};
+			name = Debug;
+		};
+		FADB90BC1DD6C828001EA10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ICPAKLIVETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICPAK.ICPAKLIVETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICPAKLIVE.app/ICPAKLIVE";
+			};
+			name = Release;
+		};
+		FADB90BE1DD6C828001EA10B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ICPAKLIVEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICPAK.ICPAKLIVEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ICPAKLIVE;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FADB90BF1DD6C828001EA10B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ICPAKLIVEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ICPAK.ICPAKLIVEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ICPAKLIVE;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADB90851DD6C828001EA10B /* Build configuration list for PBXProject "ICPAKLIVE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADB90B51DD6C828001EA10B /* Debug */,
+				FADB90B61DD6C828001EA10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADB90B71DD6C828001EA10B /* Build configuration list for PBXNativeTarget "ICPAKLIVE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADB90B81DD6C828001EA10B /* Debug */,
+				FADB90B91DD6C828001EA10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FADB90BA1DD6C828001EA10B /* Build configuration list for PBXNativeTarget "ICPAKLIVETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADB90BB1DD6C828001EA10B /* Debug */,
+				FADB90BC1DD6C828001EA10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FADB90BD1DD6C828001EA10B /* Build configuration list for PBXNativeTarget "ICPAKLIVEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADB90BE1DD6C828001EA10B /* Debug */,
+				FADB90BF1DD6C828001EA10B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADB90821DD6C828001EA10B /* Project object */;
+}
